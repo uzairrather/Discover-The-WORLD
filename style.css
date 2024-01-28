@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700;900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#048E78;
+
+    --background-color:#012b25;
+
+    --white-color:#ffffff;
+
+    --heading-color:#000;
+
+    --text-color:#333;
+}
+
+
+ 
+
+  html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+
+  body{
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    font-size: 1.8rem;
+    line-height: 1.6;
+  }
+
+  ul{
+    list-style: none;
+
+  }
+
+  a{
+    text-decoration: none;
+    margin: 25px;
+  }
+
+  .bg-header{
+    background-color: #000;
+  }
+
+  nav{
+    height: 9rem;
+  }
+
+  .navbar-brand{
+    margin-left: -1px;
+    font-size: 2.4rem;
+  }
+
+  .nav-link:link , .nav-link:visited{
+    color: aliceblue;
+    font-size: 1.8rem;
+    font-weight: 500;
+    display: inline-block;
+  }
+
+  .nav-link:hover , .nav-link:active{
+    color: var(--primary-color);
+  }
+
+  .nav-link.cta{
+    background-color: #048E78;
+    display: inline-block;
+    padding: .5rem 2rem !important;
+    border-radius: 4px;
+  }
+
+  .nav-link.cta:hover{
+    background-color: aqua;
+    color: aliceblue;
+  }
+  .bgt{
+    background-color: #000;
+  }
+
+  h1{
+    font-size: 5.2rem;
+    letter-spacing: -0.4px;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+  }
+
+  .hero-section{
+    padding: 1.2rem;
+  }
+  .hero-section p{
+    font-size: 1.8rem;
+    line-height: 1.7;
+    letter-spacing: .3px;
+
+  }
+
+  .btn{
+    background-color: var(--primary-color);
+    color: aliceblue;
+    padding: 8px 24px;
+    font-size: 1.8rem;
+    border-radius: 4px;
+  }
+  .btn.gta:hover{
+    background-color: rgb(35, 18, 164);
+    color: aliceblue;
+  }
+
+
+  .hero-img{
+  width: 80%;
+  }
+
+  .card-title{
+    font-size: 1.8rem;
+    font-weight: bold
+    
+  }
+
+  .card-text{
+    font-size: 1.6rem;
+    color: #777;
+  }
+
+
+
+  .work-title{
+    font-size: 2.5rem;
+    margin-bottom: 1.2rem;
+    
+  }
+    
+  .work-text{
+    font-size: 1.7rem;
+    color: #333;
+    line-height: 1.8;
+
+  }
+  
+  .icon{
+    padding: 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: var(--primary-color);
+    border-radius: 100%;
+    color: aliceblue;
+    margin-bottom: 1.6rem;
+  }
+
+  .main{
+    padding: 2.4rem 0;
+  }
+
+
+  .products{
+    padding: 5rem 0;
+    background-color: var(--primary-color);
+  }
+
+  .carousel-text{
+    color: aliceblue;
+    padding-top: 6rem;
+    font-size: larger;
+    font-weight: 600;
+  }
+
+  h3{
+    font-size: 2.4rem;
+  }
+
+  .stp{
+    margin-bottom: -20px;
+  }
+
+  .sgp{
+    margin-right: -10px;
+  }
+
+  .copyright{
+    font-size: 1.4rem;
+    color: aliceblue;
+  }
+
+  span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='yellow' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    color: white;
+  }
+  
+  /* change hamburger button border color */
+   button.navbar-toggler {
+    border-color: #fff;
+  }
+  
+  /* change navbar background on collapse */
+  @media (max-width: 982px) {
+    nav .navbar-nav {
+      background-color: #048e7c74;
+      padding: 2rem;
+      backdrop-filter: blur(5px);
+    }
+    .hero-section{
+      text-align: center;
+    }
+    h1{
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  .navbar-brand:hover{
+    color: #048E7B ;
+  }
+  
+  
+  .copyright{
+    font-size: 1.4rem;
+    color: #777;
+  }
